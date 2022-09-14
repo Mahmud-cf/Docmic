@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #2D89FF;
+    --secondary-color: #642DFF;
+    --text-One: #575757;
+  }
+.expand{
+    width:60%;
+    justify-content: space-between;
+}
+.expand p:last-child{
+    color:var(--secondary-color);
+    font-size: 18px;
+}
+.expand-details{
+    width:60%;
+    text-align: justify;
+    color:#7a7676;
+    font-size: 14px;
+
+}

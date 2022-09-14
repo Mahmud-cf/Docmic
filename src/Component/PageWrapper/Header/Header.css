@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #2D89FF;
+    --secondary-color: #642DFF;
+    --text-One: #575757;
+
+  }
+
+.header-body{
+    margin-top:2.5rem!important;
+}
+.header-body .header-left h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color:var(--text-One)!important;
+}
+.header-body .header-left h1 span:first-child{
+    color:var(--primary-color)!important;
+}
+.header-body .header-left h1 span:last-child{
+    color:var(--secondary-color)!important;
+}
+.header-body .header-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top:1.8rem;
+    margin-bottom:1.8rem;
+    color:var(--text-One)
+}
+.header-bottom{
+    margin-top:2.5rem!important;
+}
+.header-bottom .col-sm-4 h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color:var(--secondary-color)!important;
+}
+.header-bottom .col-sm-4 p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+margin-top:0rem;
+}
+.header-right{
+    position:relative;
+}
+.round-shape{
+    position: absolute!important;
+    z-index: 0;
+    right:0;
+    width:80%
+}
+.pose2{
+    position:absolute;
+    right:0;
+    width:80%;
+}
+.image{
+    position: relative;
+    animation: myfirst linear 12s infinite;
+  }     
+  @keyframes myfirst {
+    0%   {left: 50px; top: 280px;}
+    50%  { left:30%; top: 280px;}
+    100% { left: 50px; top: 280px;}
+  }
+.doctor{
+    background-color: #fff;
+    left: 1017px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding:1rem;
+    display: inline-block;
+    position:absolute;
+    top:87%;
+    left:69%;
+    width:36%;
+}
+.doctor p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color:var(--text-One);
+    margin-bottom: .4rem;
+    
+}
+.doctor-image img{
+    width:20%;
+    height:auto;
+
+}
+.pg-one{
+    margin-top:.45rem;
+    width:100%;
+    height:1rem;
+    border-radius: 15px;
+    background:  linear-gradient(90deg, rgba(45, 137, 255, 0.57) 0%, rgba(45, 137, 255, 0) 100%);
+}
+.pg-two{
+    margin-top:.45rem;
+    width:100%;
+    height:1rem;
+    border-radius: 15px;
+    background:linear-gradient(90deg, rgba(45, 137, 255, 0.3) 0%, rgba(45, 137, 255, 0) 100%); 
+}
+
+
+/* -------------------------HARE IS THE RESPONSIVE CSS FOR HEADER--------------- */
+
+@media only screen and (min-width: 992px){
+    .doctor{
+        top:80%;
+        left:64%;
+    }
+}
+
+
+
